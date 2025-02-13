@@ -7,7 +7,7 @@ TAG = os.getenv("TAG")
 
 IS_RELEASE = "+" not in TAG
 
-CHAT_ID = "@FlClash"
+CHAT_ID = "@qisuyun_group"
 API_URL = f"http://localhost:8081/bot{TELEGRAM_BOT_TOKEN}/sendMediaGroup"
 
 DIST_DIR = os.path.join(os.getcwd(), "dist")
